@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+sdist/
+*.egg-info/
+build/
+wheels
+
+# PyInstaller
+**/__pycache__
+**/.DS_Store
+# Environments
+.env
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Others
+tmp/
+*.swp
+*.bak
