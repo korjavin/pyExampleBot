@@ -9,7 +9,7 @@ This project implements a Telegram bot that interacts with an OpenAI-compatible 
 ```mermaid
 graph TD
     User -- Interacts via Telegram --> TelegramAPI[Telegram API]
-    TelegramAPI -- Sends Update --> BotApp[Python Bot App (in Docker)]
+    TelegramAPI -- Sends Update --> BotApp["Python Bot App (in Docker)"]
     BotApp -- Fetches Bot Info --> TelegramAPI
     BotApp -- Reads Env Vars --> HostOS[Host OS/Docker Env]
     BotApp -- Uses OpenAI Client --> OpenAI_API[OpenAI Compatible API]

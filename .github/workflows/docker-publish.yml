@@ -32,4 +32,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/korjavin/pyExampleBot:latest, ghcr.io/korjavin/pyExampleBot:${{ github.sha }}
+        tags: ghcr.io/korjavin/pyexamplebot:latest, ghcr.io/korjavin/pyexamplebot:${{ github.sha }}
